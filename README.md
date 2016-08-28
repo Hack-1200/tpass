@@ -1,24 +1,7 @@
-# README
+#README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Test_pass
 
-Things you may want to cover:
+App for save my passwords in remote db
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+For convenience, I used framework Ruby on Rails
