@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
-  get 'main_pages/index'
+  
 
- root 'users#index'  
+  # resources :users
+  get '/new', to: 'users#new'
+  get '/show', to: 'users#show'
+  root 'main_pages#index'  
 end

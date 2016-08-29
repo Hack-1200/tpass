@@ -2,8 +2,9 @@ require 'test_helper'
 
 class MainPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get main_pages_index_url
+    get root_url
     assert_response :success
+    assert_select "title","Test Password"
   end
 
 end
