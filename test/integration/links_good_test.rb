@@ -5,6 +5,6 @@ class LinksGoodTest < ActionDispatch::IntegrationTest
   	get root_path
   	assert_template "main_pages/index"
   	assert_select "a[href=?]", root_path
-  	assert_select "a[href=?]", new_path
+  	assert_select "a[href=?]", new_user_path
   end
 end
